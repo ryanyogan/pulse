@@ -4,7 +4,10 @@
   "description": "Small app to determine what is trending in the house",
   "main": "server.js",
   "scripts": {
-    "test": "mocha"
+    "start": "node server.babel.js",
+    "db-setup": "node dbSetup.babel.js",
+    "build": "webpack --watch",
+    "build-prod": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,26 @@
   "bugs": {
     "url": "https://github.com/ryanyogan/pulse/issues"
   },
-  "homepage": "https://github.com/ryanyogan/pulse#readme"
+  "homepage": "https://github.com/ryanyogan/pulse#readme",
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "body-parser": "^1.14.1",
+    "classnames": "^2.2.0",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "moment": "^2.10.6",
+    "node-uuid": "^1.4.3",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.4",
+    "redux-logger": "^2.0.4",
+    "redux-thunk": "^1.0.0",
+    "rethinkdb": "^2.1.1",
+    "serve-static": "^1.10.0",
+    "socket.io": "^1.3.7",
+    "socket.io-client": "^1.3.7",
+    "superagent": "^1.4.0",
+    "xss": "^0.2.7"
+  }
 }
