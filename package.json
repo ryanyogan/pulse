@@ -1,0 +1,19 @@
+{
+  "name": "pulse",
+  "version": "0.0.1",
+  "description": "Small app to determine what is trending in the house",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanyogan/pulse.git"
+  },
+  "author": "Ryan Yogan <ryanyogan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanyogan/pulse/issues"
+  },
+  "homepage": "https://github.com/ryanyogan/pulse#readme"
+}
